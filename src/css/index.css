@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: antiquewhite;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* header css part\ */
+/*  */
+.hidden-text {
+  display: none;
+  position: absolute;
+  background-color: rgb(67, 83, 67);
+  color: white;
+  padding: 5px;
+  
+  border-radius: 5px;
+  bottom: 5px; /* Position text near the bottom of the image */
+  left: 50px;   /* Adjust position as needed */
+}
+
+/* Show the text when hovering over the image */
+.tooltip-image-container:hover .hidden-text {
+  display: block;
+}
+
+/* Positioning for image and text */
+.tooltip-image-container {
+  position: relative;
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+}
+
+.header{
+  font-size: large;
+  /* background-color: antiquewhite; */
+}
+.login{
+  font-size: large;
+  background-color: antiquewhite;
+}
+
+/* login and register forms */
+.form-login{
+  background-color: rgb(217, 201, 232);
+  padding: 20px;
+  border-radius: 20px;
+  scroll-snap-stop:always;
+}
+.form-input{
+  padding: 5px;
+  font-size: large;
+}
+.inp{
+  padding: 10px;
+}
