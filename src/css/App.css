@@ -1,5 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .App {
   text-align: center;
+}
+a ,*,Link{
+  text-decoration: none !important;
+  background-color: bg-neutral-200 !important;
+}
+*{
+  background-color: bg-neutral-200 !important;
 }
 
 .App-logo {
@@ -22,10 +33,12 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  text-decoration: none;
 }
 
 .App-link {
   color: #61dafb;
+  text-decoration: none;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +48,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+Link{
+  text-decoration: none;
+}
+*{
+  text-decoration: none;
 }
